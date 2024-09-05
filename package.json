@@ -1,0 +1,27 @@
+{
+  "name": "cuneiformsf-reports",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cuneiform for Salesforce: Data Health Reports",
+  "engines": {
+    "node": ">=20.0.0",
+    "recommended": "22.6.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "prettier:verify": "prettier --check \"**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}\"",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^3.4.1",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
+    "prettier-plugin-apex": "^2.1.4"
+  },
+  "lint-staged": {
+    "**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
+      "prettier --write"
+    ]
+  }
+}
