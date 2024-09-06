@@ -17,7 +17,9 @@ This repository manages our collection of thoughtfully curated data quality and 
 
 [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview) is the Salesforce ecosystem's first line of high-performance data quality, data reliability, and data management products for Salesforce CRM and Data Cloud.  
 
-Use our products to quickly profile the CRM and Data Cloud objects that power your business outcomes -- and do this [securely from within your Salesforce org](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2625699908).  Leverage these reports and our collection of utilization and metadata profiling insights to assess the technical health and shape of your data (up to millions of records).  Follow our [Data Quality and Business Impact KPIs](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731769918/Extending+Profiling+with+Data+Reliability+KPIs) approach to drive data quality initiatives by correlating data quality statistics to business outcomes.
+Use our products to quickly profile the CRM and Data Cloud objects that power your business outcomes -- and do this [securely from within your Salesforce org](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2625699908).  Leverage these reports and our collection of utilization and metadata profiling insights to assess the technical health and shape of your data (up to millions of records).  
+
+> Follow our [Data Quality and Business Impact KPIs](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731769918/Extending+Profiling+with+Data+Reliability+KPIs) approach to drive data quality initiatives by correlating data quality statistics to business outcomes.
 
 ![Cuneiform for Salesforce: Measure the Reliability of Your Salesforce Org's Data](img/kpis-trend.gif)
 
