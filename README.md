@@ -25,11 +25,11 @@ Use our products to quickly profile the CRM and Data Cloud objects that power yo
 
 ## How to Use These Reports
 
-These reports are designed to accelerate the data health and reliability analysis process for Salesforce administrators, data quality professionals, and data stewards.  Use these reports to quickly assess the technical health of your Salesforce data.  Each report is designed to provide a specific set of insights, and can be customized to meet your specific data health reporting needs.
+These reports are designed to accelerate the data health and reliability analysis process for Salesforce administrators, data quality professionals, and data stewards.  Each report is designed to provide a specific set of insights, and can be customized to meet your specific data health reporting needs.
 
 ![Cuneiform for Salesforce: Comparing Default Value Usage Across Fields](img/default-values.gif)
 
-> In this example, this report measures default value usage across all profiled fields -- and identifies the fields that have the highest default value usage.   Use this report to identify fields that are disproportionately populated with their default value.  These fields may require further analysis to ensure that default values are being used appropriately.
+> In this example, this report measures default value usage across all profiled fields -- and identifies that are disproportionately populated with their default value.  These fields may require further analysis to ensure that default values are being used appropriately.
 
 
 ![Cuneiform for Salesforce: Understanding the Profiling Process](img/profiling-process.gif)
