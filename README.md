@@ -25,13 +25,14 @@ This display shows a Lead Completeness % [Data Quality KPI](https://jira-peernov
 
 ## How to Use These Reports
 
-These reports are designed to accelerate the analysis process for Salesforce administrators, data quality professionals, and data stewards.  Use these reports to quickly assess the health, reliability, and quality of your Salesforce data.  
+These reports are designed to accelerate the analysis process for Salesforce administrators, data quality professionals, and data stewards.  Use these reports to quickly assess the health, reliability, and quality of your Salesforce data.
 
-> Each report is designed to provide a specific set of insights into your Salesforce data, and can be customized to meet your specific data quality needs.  Use these reports to inspect profiling results, identify data quality issues, and prioritize data governance initiatives.
+![Cuneiform for Salesforce: Data Health Report Examples](img/reports.gif)
+> Each of the reports in this collection provides a specific set of insights into your Salesforce data and can be customized to meet your specific data quality needs.  Use these reports to inspect profiling results, identify data quality issues, and prioritize data governance initiatives.
 
 ![Cuneiform for Salesforce: Understanding the Profiling Process](img/profiling-process.gif)
 
-In our data reliability process, you can leverage these reports to inspect profiling results across each of the seventeen (17) report categories included in this repository.  Once profiling has completed, you can use these reports to [identify unpopulated fields](#unpopulated-fields-analysis-7-reports), assess duplicate density within fields, identify fields representing segments, explore which fields have the highest default value usage, and more.  
+In our data reliability process, you can leverage these reports to inspect profiling results across each of the seventeen (17) report categories included in this repository.  Once profiling has completed, you can use these reports to [identify unpopulated fields](#unpopulated-fields-analysis-7-reports), assess [duplicate density within fields](#duplicate-value-analysis-4-reports), explore which fields have the [highest default value usage](#default-value-analysis-5-reports), and more.  
 
 ## Installation Prerequisites
 To use these reports, you must have a Salesforce org and a [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373382/Introducing+Cuneiform+for+Salesforce) product installed in a development, production, or sandbox org. You can find our [latest releases](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2618130783/Latest+Product+Releases) via our [Product Documentation](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview).  
