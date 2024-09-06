@@ -25,11 +25,7 @@ Use our products to quickly profile the CRM and Data Cloud objects that power yo
 
 ## How to Use These Reports
 
-These reports are designed to accelerate the data health and reliability analysis process for Salesforce administrators, data quality professionals, and data stewards.  Each report is designed to provide a specific set of insights, and can be customized to meet your specific data health reporting needs.
-
-![Cuneiform for Salesforce: Comparing Default Value Usage Across Fields](img/default-values.gif)
-
-> The [Default Value Analysis report collection](#default-value-analysis-5-reports) identifies fields that are disproportionately populated with their default value.  Use these reports to assess default value usage, and manage if default values are being used appropriately in object fields.
+These reports are designed to accelerate the data health and reliability analysis process for Salesforce administrators, data quality professionals, and data stewards.  Each report provides a specific set of targeted and category-specific insights.  These reports can extended and customized to meet your specific data health reporting needs.
 
 ![Cuneiform for Salesforce: Understanding the Profiling Process](img/profiling-process.gif)
 
@@ -40,6 +36,8 @@ In our data reliability process, you can leverage these reports to inspect profi
 - Initiate Profiling -- and wait for it to complete (give it a few minutes)
 
 Once profiling has completed, you can use these reports to [explore your profiling results](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731999254).  This includes [identifying unpopulated fields](#unpopulated-fields-analysis-7-reports), measuring the [duplicate density of fields](#duplicate-value-analysis-4-reports), exploring which fields have the [highest default value usage](#default-value-analysis-5-reports), and more.  These reports provide an unparalleled view into the shape, health, and utilization trends of your Salesforce objects, fields, and data.  
+
+> Use these reports to drive data quality initiatives, data governance strategies, and data reliability outcomes in your Salesforce org.  Extend these reports to meet your specific data quality needs and customize the way insights are shared with your stakeholders.
 
 ## Installation Prerequisites
 To use these reports, you must have a Salesforce org and a [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373382) product installed in a development, production, or sandbox org. You can find our [latest releases](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2618130783) via our [Product Documentation](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview).  
