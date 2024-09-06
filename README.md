@@ -29,8 +29,7 @@ These reports are designed to accelerate the data health and reliability analysi
 
 ![Cuneiform for Salesforce: Comparing Default Value Usage Across Fields](img/default-values.gif)
 
-> In this example, this report measures default value usage across all profiled fields -- and identifies that are disproportionately populated with their default value.  These fields may require further analysis to ensure that default values are being used appropriately.
-
+> The [Default Value Analysis report collection](#default-value-analysis-5-reports) identifies fields that are disproportionately populated with their default value.  Use these reports to assess default value usage, and manage if default values are being used appropriately in object fields.
 
 ![Cuneiform for Salesforce: Understanding the Profiling Process](img/profiling-process.gif)
 
