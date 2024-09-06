@@ -19,7 +19,9 @@ Use our products to quickly assess the data health, reliability, and AI readines
 
 ![Cuneiform for Salesforce: Measure the Reliability of Your Salesforce Org's Data](img/kpis-trend.gif)
 
-> This display shows a Lead Completeness % Data Quality KPI in Cuneiform for CRM. It tracks the percentage of completeness of lead records over time -- with the graph showing variations in lead completeness against record volume profiled. Use this chart to monitor trends and assess whether KPI averages are increasing or decreasing, allowing for quick evaluation of data quality changes based on how records are added or removed from the Lead Object in your Salesforce org.
+This display shows a Lead Completeness % [Data Quality KPI](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731769918) in Cuneiform for CRM. It tracks the percentage of completeness of lead records over time -- with the graph showing variations in lead completeness against record volume profiled. 
+
+> Use this chart to monitor trends and assess whether [data quality KPI averages are increasing or decreasing](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2746220545/Introducing+Data+Reliability+KPIs), allowing for quick evaluation of data quality changes based on how records are added or removed from the Lead Object in your Salesforce org.
 
 ## How to Use These Reports
 
@@ -29,9 +31,7 @@ These reports are designed to accelerate the analysis process for Salesforce adm
 
 ![Cuneiform for Salesforce: Understanding the Profiling Process](img/profiling-process.gif)
 
-In our data reliability process, you can use these reports to inspect profiling results across each of the seventeen (17) report categories included in this repository.  Use these reports to identify unused fields, assess duplicate density, explore which fields have the highest default value usage, and more.  
-
-> Each report is designed to provide a specific set of insights into your Salesforce data, and can be customized to meet your specific data quality needs.
+In our data reliability process, you can leverage these reports to inspect profiling results across each of the seventeen (17) report categories included in this repository.  Once profiling has completed, you can use these reports to [identify unpopulated fields](#unpopulated-fields-analysis-7-reports), assess duplicate density within fields, identify fields representing segments, explore which fields have the highest default value usage, and more.  
 
 ## Installation Prerequisites
 To use these reports, you must have a Salesforce org and a [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373382/Introducing+Cuneiform+for+Salesforce) product installed in a development, production, or sandbox org. You can find our [latest releases](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2618130783/Latest+Product+Releases) via our [Product Documentation](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview).  
