@@ -32,7 +32,7 @@ These reports are designed to accelerate the data health and reliability analysi
 In our data reliability process, you can leverage these reports to inspect profiling results across each of the seventeen (17) report categories included in this repository.  
 
 - Identify a Salesforce Object to profile (ex., Accounts, Contacts, or Leads)
-- Create a [Profiling Definition](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373435/) for your Salesforce Object
+- Create a [Profiling Definition](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373435/) for your Salesforce Object with the Definition Category `Baseline`
 - Initiate Profiling -- and wait for it to complete (give it a few minutes)
 
 Once profiling has completed, you can use these reports to [explore your profiling results](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731999254).  This includes [identifying unpopulated fields](#unpopulated-fields-analysis-7-reports), measuring the [duplicate density of fields](#duplicate-value-analysis-4-reports), exploring which fields have the [highest default value usage](#default-value-analysis-5-reports), and more.  These reports provide an unparalleled view into the shape, health, and utilization trends of your Salesforce objects, fields, and data.  
@@ -84,6 +84,8 @@ Each report is designed to display profiling results for multiple Salesforce obj
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Is Latest Summary             | Describes if a profiling summary the latest summary created for a given Profiling Definition. The reports in this collection only include the latest profiling summary results for qualifying Profiling Definitions. | true          |
 | Profiling Definition Category | Describes the Profiling Category assigned to a given Profiling Definition.  The reports in this collection only include summaries belonging to Profiling Definitions that have a category value of `Baseline`.       | `Baseline`    |
+
+> For each of these reports, please ensure that the `Is Latest Summary` parameter is set to `true` and the `Profiling Definition Category` is set to `Baseline`.  These parameters are used to filter the profiling results displayed in these reports.  
 
 ![Cuneiform for Salesforce: Report Parameters](img/filter-criteria.gif)
 
