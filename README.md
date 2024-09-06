@@ -33,15 +33,21 @@ These reports are designed to accelerate the data health and reliability analysi
 
 ![Cuneiform for Salesforce: Understanding the Profiling Process](img/profiling-process.gif)
 
-In our data reliability process, you can leverage these reports to inspect profiling results across each of the seventeen (17) report categories included in this repository.  Once profiling has completed, you can use these reports to [identify unpopulated fields](#unpopulated-fields-analysis-7-reports), assess [duplicate density within fields](#duplicate-value-analysis-4-reports), explore which fields have the [highest default value usage](#default-value-analysis-5-reports), and more.  
+In our data reliability process, you can leverage these reports to inspect profiling results across each of the seventeen (17) report categories included in this repository.  
+
+- Identify a Salesforce Object to profile (ex., Accounts, Contacts, or Leads)
+- Create a [Profiling Definition](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373435/) for your Salesforce Object
+- Initiate Profiling -- and wait for it to complete (give it a few minutes)
+
+Once profiling has completed, you can use these reports to [explore your profiling results](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731999254).  This includes [identifying unpopulated fields](#unpopulated-fields-analysis-7-reports), measuring the [duplicate density of fields](#duplicate-value-analysis-4-reports), exploring which fields have the [highest default value usage](#default-value-analysis-5-reports), and more.  These reports provide an unparalleled view into the shape, health, and utilization trends of your Salesforce objects, fields, and data.  
 
 ## Installation Prerequisites
-To use these reports, you must have a Salesforce org and a [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373382/Introducing+Cuneiform+for+Salesforce) product installed in a development, production, or sandbox org. You can find our [latest releases](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2618130783/Latest+Product+Releases) via our [Product Documentation](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview).  
+To use these reports, you must have a Salesforce org and a [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373382) product installed in a development, production, or sandbox org. You can find our [latest releases](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2618130783) via our [Product Documentation](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview).  
 
-- Review our [product pre-requisites](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2621800476/Installation+Prerequisites) to confirm you can install Cuneiform for Salesforce products
-- Install [Cuneiform for CRM: Field and Data Management](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507/Setup+Field+and+Data+Management) to get started with data quality assessments and monitoring.
-- Complete your [setup of Cuneiform for CRM](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2596241458/Configuring+Cuneiform+for+CRM+FDM) in minutes and [validate your configuration](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2615214099/Verify+Your+Cuneiform+for+CRM+FDM+Configuration).
-- [Profile your Salesforce Standard and Custom Objects](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373435/Get+Started+with+Data+Profiling) to collect the profiling insights and data governance evidence to drive data initiative priorities
+- Review our [product pre-requisites](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2621800476) to confirm you can install Cuneiform for Salesforce products
+- Install [Cuneiform for CRM: Field and Data Management](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507) to get started with data quality assessments and monitoring.
+- Complete your [setup of Cuneiform for CRM](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2596241458) in minutes and [validate your configuration](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2615214099).
+- [Profile your Salesforce Standard and Custom Objects](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373435) to collect the profiling insights and data governance evidence to drive data initiative priorities
 
 ## Deployment Instructions
 We recommend [cloning this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and using SFDX to deploy these reports to your Salesforce org.  You can also use the Salesforce UI to manually deploy these reports (not recommended, but certainly an option).
