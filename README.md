@@ -5,17 +5,21 @@ Powered by [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/s
 
 ![Cuneiform for Salesforce: Data Health Report Examples](img/reports.gif)
 
-> Each of the reports in this collection provides a specific set of insights into your Salesforce data and can be customized to meet your specific data quality needs.  Use these reports to explore the shape, health, and reliability of your Salesforce data.
+This repository manages our collection of thoughtfully curated data quality and technical health reports.  Each of the reports in this collection provides a specific set of insights into your Salesforce data and can be customized to meet your specific data quality needs.  
 
-This repository manages our collection of thoughtfully curated data quality and technical health reports.  Use these reports
-with any Cuneiform for Salesforce product to help you get started with your data quality journey.  
-> These reports are 100% free and are designed to be customized and adapted to meet your organization's specific needs. [Install Cuneiform for CRM today](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507/Setup+Field+and+Data+Management) and use these reports to explore the shape, health, and reliability in your data.
+- Use these reports with any Cuneiform for Salesforce product to help you get started with your data quality journey.
+- Use these reports to explore the shape, health, and reliability, and usage trends of your Salesforce data.
+- Customize, extend, and adapt these reports to meet your organization's specific needs. 
+
+> [Install Cuneiform for CRM today](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507/Setup+Field+and+Data+Management) and start profiling your Salesforce data today!
 
 ## What Is Cuneiform for Salesforce?
 
 [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview) is the Salesforce ecosystem's first line of high-performance data quality, data reliability, and data management products for Salesforce CRM and Data Cloud.  
 
-Use our products to quickly assess the data health, reliability, and AI readiness of your CRM and Data Cloud data securely from within your Salesforce org (visit our [Cuneiform for Salesforce and Trust](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2625699908) page for more details).  Assess the reliability of millions of records in minutes with the most comprehensive collection of utilization, metadata, and data quality / reliability insights [available in the Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IPSsZUAX).
+Use our products to quickly assess the data health, reliability, and AI readiness of your CRM and Data Cloud data securely from within your Salesforce org (visit our [Cuneiform for Salesforce and Trust](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2625699908) page for more details).  
+
+> Assess the reliability of millions of records in minutes with the most comprehensive collection of utilization, metadata, and data quality / reliability insights [available in the Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IPSsZUAX).
 
 ![Cuneiform for Salesforce: Measure the Reliability of Your Salesforce Org's Data](img/kpis-trend.gif)
 
