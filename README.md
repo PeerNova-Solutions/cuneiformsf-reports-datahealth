@@ -1,15 +1,15 @@
 # cuneiformsf-reports
 
-# Free Data Health Reports for Salesforce Customers
+## Free Data Health Reports for Salesforce Customers
 Powered by [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2962358316/PeerNova+s+Cuneiform+for+Salesforce+Products).  Over 110+ Salesforce Reports across 17 Data Health and Reliability Categories. 100% Free for the Salesforce ecosystem.
+
+![Cuneiform for Salesforce: Data Health Report Examples](img/reports.gif)
+
+> Each of the reports in this collection provides a specific set of insights into your Salesforce data and can be customized to meet your specific data quality needs.  Use these reports to explore the shape, health, and reliability of your Salesforce data.
 
 This repository manages our collection of thoughtfully curated data quality and technical health reports.  Use these reports
 with any Cuneiform for Salesforce product to help you get started with your data quality journey.  
 > These reports are 100% free and are designed to be customized and adapted to meet your organization's specific needs. [Install Cuneiform for CRM today](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507/Setup+Field+and+Data+Management) and use these reports to explore the shape, health, and reliability in your data.
-
-![Cuneiform for Salesforce: Comparing Overall vs. Populated Duplicate Density](img/dupe-density-comparison.gif)
-
-> This report compares the overall duplicate density of a Salesforce org with the duplicate density of populated fields.  It is designed to help you understand which fields have the highest amount of duplicate values and compares the duplicate density of populated records against profiled records.
 
 ## What Is Cuneiform for Salesforce?
 
@@ -25,10 +25,12 @@ This display shows a Lead Completeness % [Data Quality KPI](https://jira-peernov
 
 ## How to Use These Reports
 
-These reports are designed to accelerate the analysis process for Salesforce administrators, data quality professionals, and data stewards.  Use these reports to quickly assess the health, reliability, and quality of your Salesforce data.
+These reports are designed to accelerate the analysis process for Salesforce administrators, data quality professionals, and data stewards.  Use these reports to quickly assess the health, reliability, and quality of your Salesforce data.  Each report is designed to provide a specific set of insights into your Salesforce data and can be customized to meet your specific data quality needs.
 
-![Cuneiform for Salesforce: Data Health Report Examples](img/reports.gif)
-> Each of the reports in this collection provides a specific set of insights into your Salesforce data and can be customized to meet your specific data quality needs.  Use these reports to inspect profiling results, identify data quality issues, and prioritize data governance initiatives.
+![Cuneiform for Salesforce: Comparing Default Value Usage Across Fields](img/default-values.gif)
+
+> In this example, this report measures default value usage across all profiled fields -- and identifies the fields that have the highest default value usage.   Use this report to identify fields that are disproportionately populated with their default value.  These fields may require further analysis to ensure that default values are being used appropriately.
+
 
 ![Cuneiform for Salesforce: Understanding the Profiling Process](img/profiling-process.gif)
 
