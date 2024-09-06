@@ -17,9 +17,7 @@ This repository manages our collection of thoughtfully curated data quality and 
 
 [Cuneiform for Salesforce](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/overview) is the Salesforce ecosystem's first line of high-performance data quality, data reliability, and data management products for Salesforce CRM and Data Cloud.  
 
-Use our products to quickly assess the data health, reliability, and AI readiness of your CRM and Data Cloud data securely from within your Salesforce org (visit our [Cuneiform for Salesforce and Trust](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2625699908) page for more details).  
-
-> Assess the reliability of millions of records in minutes with the most comprehensive collection of utilization, metadata, and data quality / reliability insights [available in the Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IPSsZUAX).
+Use our products to quickly profile the CRM and Data Cloud objects that power your business outcomes -- and do this [securely from within your Salesforce org](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2625699908).  Leverage these reports and our collection of utilization and metadata profiling insights to assess the technical health and shape of your data (up to millions of records).  Follow our [Data Quality and Business Impact KPIs](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731769918/Extending+Profiling+with+Data+Reliability+KPIs) approach to drive data quality initiatives by correlating data quality statistics to business outcomes.
 
 ![Cuneiform for Salesforce: Measure the Reliability of Your Salesforce Org's Data](img/kpis-trend.gif)
 
@@ -29,7 +27,7 @@ This display shows a Lead Completeness % [Data Quality KPI](https://jira-peernov
 
 ## How to Use These Reports
 
-These reports are designed to accelerate the analysis process for Salesforce administrators, data quality professionals, and data stewards.  Use these reports to quickly assess the health, reliability, and quality of your Salesforce data.  Each report is designed to provide a specific set of insights into your Salesforce data and can be customized to meet your specific data quality needs.
+These reports are designed to accelerate the data health and reliability analysis process for Salesforce administrators, data quality professionals, and data stewards.  Use these reports to quickly assess the technical health of your Salesforce data.  Each report is designed to provide a specific set of insights, and can be customized to meet your specific data health reporting needs.
 
 ![Cuneiform for Salesforce: Comparing Default Value Usage Across Fields](img/default-values.gif)
 
