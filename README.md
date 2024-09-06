@@ -234,8 +234,6 @@ This suite of reports from Cuneiform for CRM zeroes in on fields with 0% populat
 ![Cuneiform for Salesforce: Empty Fields | Custom | Abandoned %](img/reports/customfields-empty-abandoned.gif)
 
 > The `Empty Fields | Custom | Abandoned` report identifies custom fields that are completely unpopulated (0% population rate) and lack field descriptions, metadata dependencies, and data governance properties.  Use this report to identify unused custom fields that are deprecation candidates. By pinpointing custom fields that are unused and undocumented, practitioners can streamline their org's data model, improve end-user experience, and ensure that all custom fields serve a clear purpose.
- 
-For Salesforce administrators and business process owners, this report offers valuable insights into how record types are utilized within the org. By understanding which record types are most frequently used or underutilized, teams can streamline their data model, refine business processes, and ensure that the CRM structure aligns with actual business needs. This data-driven approach can lead to improved user adoption and more efficient use of Salesforce capabilities.
 
 ## [License](LICENSE.md)
 
