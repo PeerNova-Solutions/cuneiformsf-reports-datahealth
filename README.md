@@ -19,13 +19,9 @@ This repository manages our collection of thoughtfully curated data quality and 
 
 Use our products to quickly profile the CRM and Data Cloud objects that power your business outcomes -- and do this [securely from within your Salesforce org](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2625699908).  Leverage these reports and our collection of utilization and metadata profiling insights to assess the technical health and shape of your data (up to millions of records).  
 
-> Follow our [Data Quality and Business Impact KPIs](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731769918/Extending+Profiling+with+Data+Reliability+KPIs) approach to drive data quality initiatives by correlating data quality statistics to business outcomes.
-
 ![Cuneiform for Salesforce: Measure the Reliability of Your Salesforce Org's Data](img/kpis-trend.gif)
 
-This display shows a Lead Completeness % [Data Quality KPI](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731769918) in Cuneiform for CRM. It tracks the percentage of completeness of lead records over time -- with the graph showing variations in lead completeness against record volume profiled. 
-
-> Use this chart to monitor trends and assess whether [data quality KPI averages are increasing or decreasing](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2746220545/Introducing+Data+Reliability+KPIs), allowing for quick evaluation of data quality changes based on how records are added or removed from the Lead Object in your Salesforce org.
+> Follow our [Data Quality and Business Impact KPIs](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2731769918/Extending+Profiling+with+Data+Reliability+KPIs) approach to drive data quality initiatives by correlating data quality statistics to business outcomes.
 
 ## How to Use These Reports
 
