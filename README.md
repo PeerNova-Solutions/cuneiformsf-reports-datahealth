@@ -148,6 +148,7 @@ This category offers a suite of pre-built report templates designed for comprehe
 ![Cuneiform for Salesforce: Profiled Picklist Values | TEMPLATE](img/reports/templates-picklistvalues.gif)
 
 > The `Profiled Picklist Values | TEMPLATE` report provides an analysis of picklist field usage across various Salesforce objects. It offers key metrics such as total picklist values, active and inactive values, and field utilization statistics with a visual breakdown of picklist fields by object. 
+:point_up: Back to [Data Health Report Categories](#data-health-report-categories)
 
 ### Profiling Exceptions Analysis (8 Reports)
 The Profiling Exceptions Analysis category offers a set of reports designed to examine and categorize exceptions that occur during the data profiling process. These reports provide detailed insights into various types of exceptions, including those associated with profiling definitions, specific fields, objects, and unassociated exceptions -- grouped by different criteria such as class or object.
