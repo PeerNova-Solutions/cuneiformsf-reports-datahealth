@@ -68,6 +68,8 @@ Use [Jetstream's Deploy Metadata](https://docs.getjetstream.app/deploy-metadata)
 After the deployment completes, you view the status of your deployment via [Jetstream's Deployment History](https://docs.getjetstream.app/deploy-metadata#deployment-history).  You can also log into your Salesforce org to verify the deployment results.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md) that includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md) from within Salesforce setup.
 
 ### Using SFDX to Deploy These Reports
+
+![Install SFDX Today](img/sfdx.gif)
 > Please follow these instructions to deploy these reports to your Salesforce org using SFDX.  The following guidance is dependent on you having [SFDX installed](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) on your local machine and cloned this repository to your local workstation.
 
 #### Install SFDX
