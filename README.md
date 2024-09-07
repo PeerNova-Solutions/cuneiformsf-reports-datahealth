@@ -65,7 +65,7 @@ Use [Jetstream's Deploy Metadata](https://docs.getjetstream.app/deploy-metadata)
 - Confirm that you have a [connection configured to the Salesforce org](https://docs.getjetstream.app/#adding-your-first-org) where you have [Cuneiform for CRM installed](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2952921126/).
 - Upload your [cuneiformsf-dhr-v25.zip](packaged/cuneiformsf-dhr-v25.zip) file to Jetstream and deploy the reports to your Salesforce org.
 
-After the deployment completes, you view the status of your deployment via [Jetstream's Deployment History](https://docs.getjetstream.app/deploy-metadata#deployment-history).  You can also log into your Salesforce org to verify the deployment results.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md) that includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md) from within Salesforce setup.
+After the deployment completes, you view the status of your deployment via [Jetstream's Deployment History](https://docs.getjetstream.app/deploy-metadata#deployment-history).  You can also log into your Salesforce org to verify the deployment results.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md#verify-your-deployment-via-salesforce-setup) that includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md#verify-your-deployment-via-salesforce-setup) from within Salesforce setup.
 
 ### Use SFDX to Deploy These Reports
 
