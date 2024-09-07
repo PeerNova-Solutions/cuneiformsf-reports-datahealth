@@ -63,7 +63,7 @@ Use [Jetstream's Deploy Metadata](https://docs.getjetstream.app/deploy-metadata)
 - Confirm that you have a [connection configured to the Salesforce org](https://docs.getjetstream.app/#adding-your-first-org) where you have [Cuneiform for CRM installed](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2952921126/).
 - Upload your [cuneiformsf-dhr-v25.zip](packaged/cuneiformsf-dhr-v25.zip) file to Jetstream and deploy the reports to your Salesforce org.
 
-After the deployment completes, you can log into your Salesforce org and navigate to the Reports tab.  You should see the reports in the `Cuneiform for CRM: Data Health Reports` folder.  Please ensure that you have access to reports prior to validating the deployment.
+After the deployment completes, you view the status of your deployment via [Jetstream's Deployment History](https://docs.getjetstream.app/deploy-metadata#deployment-history).  You can also log into your Salesforce org to verify the deployment results.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md) that includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md) from within Salesforce setup.
 
 ### Using SFDX to Deploy These Reports
 > Please follow these instructions to deploy these reports to your Salesforce org using SFDX.  The following guidance is dependent on you having [SFDX installed](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) on your local machine and cloned this repository to your local workstation.
@@ -86,7 +86,7 @@ To deploy the reports to your Salesforce org, you can use the following command 
 
 This command will deploy the reports to your Salesforce org.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md) that depicts a successful deployment via SFDX.  This page includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md) from within Salesforce setup.
 
-#### Verify the Reports in Your Salesforce Org
+## Verify the Reports in Your Salesforce Org
 You can verify the deployment by logging into your Salesforce org and navigating to the Reports tab.  You should see the reports in the `Cuneiform for CRM: Data Health Reports` folder.  Please ensure that you have access to reports prior to validating the deployment.
 
 ![Cuneiform for Salesforce: Data Health Reports Folder](img/report-folders.gif)
