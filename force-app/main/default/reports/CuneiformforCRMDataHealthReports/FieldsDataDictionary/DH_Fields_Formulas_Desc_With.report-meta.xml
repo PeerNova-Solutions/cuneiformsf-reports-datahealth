@@ -317,14 +317,14 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
-            <value>0</value>
+            <value>1</value>
         </criteriaItems>
         <criteriaItems>
             <column>pnova__Profiling_SObject_Field_Results__c$pnova__FMdt_HasDescription__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>0</value>
+            <value>1</value>
         </criteriaItems>
     </filter>
     <format>Summary</format>
@@ -343,7 +343,7 @@
         <field>pnova__Profiling_SObject_Field_Results__c$pnova__FMdt_HasDescription__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Fields | Formulas | No Descriptions</name>
+    <name>Fields | Formulas | With Descriptions</name>
     <params>
         <name>co</name>
         <value>1</value>
