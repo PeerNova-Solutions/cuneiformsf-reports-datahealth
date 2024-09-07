@@ -51,6 +51,8 @@ To use these reports, you must have a Salesforce org and a [Cuneiform for Salesf
 We recommend [cloning this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and using SFDX to deploy these reports to your Salesforce org.  You can also use the Salesforce UI to manually deploy these reports (not recommended, but certainly an option).
 
 ### Use Jetstream to Deploy These Reports
+
+![Try Jetstream Today](img/jetstream.gif)
 > Please follow these instructions to deploy these reports to your Salesforce org using [Jetstream](https://getjetstream.app/).  The following guidance is dependent on you having a [Jetstream account](https://docs.getjetstream.app/) that is [connected to your Salesforce org](https://docs.getjetstream.app/#adding-your-first-org).
 
 #### Download the Reporting Package
@@ -86,7 +88,9 @@ To deploy the reports to your Salesforce org, you can use the following command 
 
 This command will deploy the reports to your Salesforce org.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md) that depicts a successful deployment via SFDX.  This page includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md) from within Salesforce setup.
 
-## Verify the Reports in Your Salesforce Org
+## Accessing the Reports in Salesforce
+
+### Validating Your Deployment
 You can verify the deployment by logging into your Salesforce org and navigating to the Reports tab.  You should see the reports in the `Cuneiform for CRM: Data Health Reports` folder.  Please ensure that you have access to reports prior to validating the deployment.
 
 ![Cuneiform for Salesforce: Data Health Reports Folder](img/report-folders.gif)
