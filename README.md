@@ -28,7 +28,7 @@ Our Data Health reports offer actionable insights into key data health metrics -
 
 | Report Category                                                                                        | Reports | Description                                                                                   |
 |--------------------------------------------------------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------|
-| [Object, Field, and Field Value Templates](README.md#object-field-and-field-value-templates-7-reports) | 7       | Review object and field data profiling results to track usage trends and identify issues. Helps streamline object health.|
+| [Object, Field, and Field Value Templates](#object-field-and-field-value-templates-7-reports) | 7       | Review object and field data profiling results to track usage trends and identify issues. Helps streamline object health.|
 | Profiling Exceptions Analysis                                                                          | 8       | Review exceptions found during data profiling processes. Supports troubleshooting and resolving data profiling issues. |
 | Data Governance Analysis                                                                               | 11      | Assess data classification and sensitivity levels. Improves compliance and data governance efforts.|
 | Data Dictionary Analysis                                                                               | 6       | Identify fields missing descriptions or help text. Enhances data quality and documentation for better user understanding.|
