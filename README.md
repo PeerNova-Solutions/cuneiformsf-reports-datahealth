@@ -11,7 +11,7 @@ This repository manages our collection of thoughtfully curated data quality and 
 - Use these reports to explore the shape, health, and reliability, and usage trends of your Salesforce data.
 - Customize, extend, and adapt these reports to meet your organization's specific needs. 
 
-> [Install Cuneiform for CRM today](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507/Setup+Field+and+Data+Management) and start profiling your Salesforce data today!
+> [Install Cuneiform for CRM today](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507/Setup+Field+and+Data+Management) and start profiling your Salesforce Standard, Custom, and Data Cloud objects.
 
 ## What Is Cuneiform for Salesforce?
 
@@ -114,8 +114,10 @@ Each report is designed to display profiling results for multiple Salesforce obj
 These reports are designed to display single summary results for multiple Profiling Definitions. Ensure that these parameters are configured correctly to see results (reports that display none or too many results may need to have these parameters adjusted).
 > Customize these parameters to change the scope of results rendered in these reports, and extend the filter criteria with new filters to include or filter out specific profiling results.  Review the filter criteria in each report for examples of how to extend the filter criteria.
 
-## Report Categories
-Each of these reports can be copied and customized to fit specific reporting needs, providing a robust foundation for comprehensive data quality analysis in Salesforce.
+## Data Health Report Categories
+Our Data Health reports offer actionable insights into key data health metrics -- such as duplicate value detection, picklist usage, data governance gaps, default value usage, outlier value detection, and field utilization,  By using these reports, Salesforce professionals can drive more informed org management decisions, enhance data governance strategies, and ensure their data is optimized for business processes.
+
+> These reports can be customized and extended to meet your specific data quality needs.  Use these reports to drive data quality initiatives, data governance strategies, and data reliability outcomes specifically tailored for your Salesforce org.
 
 ### Cuneiform for Salesforce Reporting Templates
 
