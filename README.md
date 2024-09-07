@@ -149,7 +149,7 @@ This category offers a suite of pre-built report templates designed for comprehe
 
 > The `Profiled Picklist Values | TEMPLATE` report provides an analysis of picklist field usage across various Salesforce objects. It offers key metrics such as total picklist values, active and inactive values, and field utilization statistics with a visual breakdown of picklist fields by object. 
 
-:point_up: Back to [Data Health Report Categories](#data-health-report-categories)
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ### Profiling Exceptions Analysis (8 Reports)
 The Profiling Exceptions Analysis category offers a set of reports designed to examine and categorize exceptions that occur during the data profiling process. These reports provide detailed insights into various types of exceptions, including those associated with profiling definitions, specific fields, objects, and unassociated exceptions -- grouped by different criteria such as class or object.
@@ -158,6 +158,8 @@ The Profiling Exceptions Analysis category offers a set of reports designed to e
 ![Cuneiform for Salesforce: Exception Logs | Definitions](img/reports/exceptions-bydefinition.gif)
 
 > The `Exception Logs | Definitions` report provides a detailed overview of exceptions that occur during the profiling process. It displays exception details by definition and includes specific details for each exception -- including as the definition key, exception type, and summary description. 
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ## Data Reliability Analysis Reports
 
@@ -169,6 +171,8 @@ Dive deep into your Salesforce metadata with this collection of reports focused 
 
 > The `Fields | Descriptions & Help | Missing` report identifies all profiled fields that lack descriptions and help text. It provides a visual breakdown of populated and empty fields missing these field values that may need better descriptions or help text to enhance user understanding and data quality.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Data Governance Analysis (6 Reports)
 Explore your Salesforce data governance landscape with this set of specialized reports. From field usage and compliance categories to data ownership and sensitivity levels, these analyses shed light on crucial aspects of your data classification and governance framework.
 > These reports empower data architects and administrators to fortify their organization's data governance strategies. By identifying fields that lack data classification properties and aligning practices with regulatory requirements, teams can create a lightweight governance structure tailored to their business needs.
@@ -176,6 +180,8 @@ Explore your Salesforce data governance landscape with this set of specialized r
 ![Cuneiform for Salesforce: Fields | Data Gov | Missing](img/reports/datagov-missing.gif)
 
 > The `Fields | Data Gov | Missing` report identifies all populated and unpopulated fields that lack data classification properties.  It provides a visual breakdown of these by population status, and includes field both utilization statistics and data classification properties for each offending field.
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ### Default Value Analysis (5 Reports)
 The Default Value Analysis category showcases a set of reports dedicated to examining the configuration and usage of default values across Salesforce fields. These reports delve into various aspects of default value implementation, including their presence in required fields, usage patterns, data type distributions, and fields with high default value adoption.
@@ -185,6 +191,8 @@ The Default Value Analysis category showcases a set of reports dedicated to exam
 
 > The `Fields | High Default Value Usage` report identifies fields configured with default values that have high usage rates. It provides a visual breakdown of default value population percentages across different objects and fields and with our collection of field utilization statistics. This report is crucial to identify potential data quality issues or process inefficiencies where default values may be overused.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Duplicate Value Analysis (4 Reports)
 Unveil the impact of duplicate values on your Salesforce data with this set of analysis reports. Identify fields with high percentages of duplicate values based on their overall and populated duplicate-density scores, and pinpoint fields with the highest propensity for duplicate values.
 > Data quality teams can use these reports to accelerate deduplication efforts, inform which fields are used in match rules, and improve the reliability of deduplication initiatives. Dive deeper into duplicate value patterns by comparing duplicate-density scores against populated records and profiled records.  Use these insights to drive deduplication priorities.
@@ -192,6 +200,8 @@ Unveil the impact of duplicate values on your Salesforce data with this set of a
 ![Cuneiform for Salesforce: Fields | With High Duplicate Frequency %](img/reports/duplicates-highfrequency.gif)
 
 > The `Fields | With High Duplicate Frequency %` report identifies fields with a high percentage of duplicate values. It provides a visual breakdown of duplicate-density percentages across different objects and fields, and enables data quality teams to quickly pinpoint fields that may be contributing to data duplication issues.  Use our profiling statistics to inform field priorities and match rule design. 
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ### Identity Resolution Analysis (14 Reports)
 Accelerate your Salesforce Data Cloud implementation with this insightful collection of Identity Resolution Analysis reports. These powerful tools enable you to identify the most suitable fields for identity resolution processes, a critical step in creating a unified customer view within Data Cloud.
@@ -201,6 +211,8 @@ Accelerate your Salesforce Data Cloud implementation with this insightful collec
 
 > This `Resolution Fields | By Priority` report identifies and prioritizes fields suitable for identity resolution via Data Cloud based on their population rates and distinctness. It provides a visual breakdown of prioritization scores for fields like Email, Mobile, and Photo URL across different objects.  This report is invaluable for practitioners working on Customer 360 initiatives as it accelerates the identification of the most reliable fields for matching and merging contact records.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Low-Population Field Analysis (6 Reports)
 Identify underutilized fields and optimize your Salesforce data model with this set of Low-Population Field Analysis reports. These reports provide valuable insights into fields with low population rates, enabling you to make informed decisions about data governance, field management, and system performance.
 > Administrators and data architects can user these reports to pinpoint fields with population rates below specific thresholds (ex. such as 15%). By identifying low-population fields across various categories -- you can streamline your data model, drive data cleanup initiatives, identify field deprecation candidates, and ensure your Salesforce org maintains a lean and effective data structure.
@@ -208,6 +220,8 @@ Identify underutilized fields and optimize your Salesforce data model with this 
 ![Cuneiform for Salesforce: Low Populated Fields | All](img/reports/lowpopulation-all.gif)
 
 > The `Low Population Fields | All` report identifies fields with less than 15% population rate across different Salesforce objects. It provides a visual breakdown of low-populated fields by object and field type (custom vs. standard), along with field utilization statistics. This report enables practitioners to identify underutilized fields and focus on improving data completeness for critical fields.
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ### Metadata Dependency Analysis (9 Reports)
 Gain deep insights into your Salesforce metadata with this set of Metadata Dependency Analysis reports. These reports provide a comprehensive view of the complex relationships between custom fields and their associated metadata dependencies, empowering Salesforce professionals to make informed decisions about data management and system optimization.
@@ -217,6 +231,8 @@ Gain deep insights into your Salesforce metadata with this set of Metadata Depen
 
 > This `Custom Fields | Empty | Total MDD` report identifies custom fields that are unpopulated but have metadata dependencies such as reporting, user interface, or workflow rules. It provides a visual breakdown of these empty fields by object accompanied by the number of dependencies for each field type. Use this report to identify potential technical debt, optimize user experience, and ensure that all custom fields serve a purpose.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Namespace Analysis (5 Reports)
 This category offers a comprehensive set of reports designed to analyze and summarize field distribution, utilization, and object composition across different namespaces in your Salesforce org. These reports leverage the profiling capabilities of Cuneiform for CRM to provide detailed insights into field usage patterns for namespace-specific objects and fields.
 > Salesforce administrators and architects can use these reports to gain a holistic view of the object / field / namespace distribution in their org, and make informed decisions about field management across namespaces. Teams can use these insights to streamline their data model, measure namespace package usage, and ensure efficient use of their Salesforce org's capacity.
@@ -224,6 +240,8 @@ This category offers a comprehensive set of reports designed to analyze and summ
 ![Cuneiform for Salesforce: Profiled Objects | By Namespace](img/reports/objectfields-bynamespace.gif)
 
 > The `Profiled Objects | By Namespace` report provides an overview of profiled objects and fields grouped by their namespace. It offers a visual breakdown of the total number of fields per namespace accompanied by field utilization and profiling statistics. This report is useful in complex orgs with multiple packages or managed applications as it showcases the distribution of custom fields across multiple namespaces.
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ### Object Reference Analysis (8 Reports)
 Uncover the intricate web of relationships within your Salesforce org using this collection of reports. From field value distributions to empty reference fields, these analyses provide a clear picture of how objects are interconnected and where potential data gaps exist.
@@ -233,6 +251,8 @@ Uncover the intricate web of relationships within your Salesforce org using this
 
 > The `Reference Fields | Empty vs. Populated` report provides an analysis of reference fields across profiled Salesforce objects -- comparing their empty and populated statuses. It offers a visual breakdown of reference fields by object, distinguishing between empty and populated fields, along with key field utilization metrics and profiling statistics. This report helps practitioners improve overall data quality and maintain proper object relationships within the CRM.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Outlier Values Analysis (2 Reports)
 Uncover exceptional data points in your Salesforce fields with this set of reports focused on identifying and quantifying outlier values. These analyses pinpoint field values that deviate significantly from the norm, appearing 10 times more frequently than average or exceeding typical population rates.
 > Salesforce administrators and data quality specialists can leverage these reports to quickly spot field value anomalies, assess data integrity, and prioritize data cleansing efforts.  By identifying outliers, teams can improve data accuracy, enhance reporting trustworthiness, and optimize business processes reliant on clean, consistent data.
@@ -240,6 +260,8 @@ Uncover exceptional data points in your Salesforce fields with this set of repor
 ![Cuneiform for Salesforce: Field Value | Statistical Outliers](img/reports/fieldvalues-statisticaloutliers.gif)
 
 > This `Field Values | Statistical Outliers` report identifies field values that occur 10x more frequently than the average of other field values based on their population rate. It provides a visual representation of these outlier values and their field utilization statistics across profiled Salesforce objects. Use this report to quickly spot anomalies potentially representing data entry errors, system issues, or unexpected patterns in business data that may require further investigation or cleanup.
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ### Owner, Creator, and Modifier Analysis (6 Reports)
 This set of reports offers valuable insights into user interactions with profiled Salesforce objects. By analyzing record ownership, creation, and modification patterns, these reports shed light on data stewardship and user engagement across your Salesforce org.
@@ -249,6 +271,8 @@ This set of reports offers valuable insights into user interactions with profile
 
 > The `Profiled Objects | By Record Owner` report provides an analysis of record ownership distribution across profiled Salesforce objects. It offers a visual breakdown of the top record owners by object, showing the total number of records owned by each user or process.  Use this report to understand data ownership patterns, identify potential workload imbalances, and ensure proper data stewardship across the organization.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Picklist Value Analysis (5 Reports)
 Optimize your Salesforce picklist fields with this powerful set of analysis reports. Identify active and in-use picklist values, uncover inactive values that can be safely removed, and pinpoint non-picklist fields that may be candidates for conversion to streamline data entry and maintain consistency.
 > Salesforce administrators and data managers can leverage these insights to refine picklist configurations, eliminate unused values, and improve data accuracy and consistency across Salesforce objects. By proactively managing picklist fields and values, teams can enhance the reliability of reporting and analysis processes.
@@ -256,6 +280,8 @@ Optimize your Salesforce picklist fields with this powerful set of analysis repo
 ![Cuneiform for Salesforce: Picklist Fields | Inactive Values in Use](img/reports/picklist-inactivevalues.gif)
 
 > This `Picklist Fields | Inactive Values In-Use` report identifies picklist field values that are marked as inactive but are still being used in records.  It provides a visual breakdown of inactive picklist values across different objects and fields that helps Salesforce administrators and data quality teams identify discrepancies between picklist configurations and actual data usage.
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ### Profiling Segment Analysis (4 Reports)
 These reports offer valuable insights into fields that warrant deeper examination for data profiling. These reports identify key fields and their associated values across objects, enabling a more granular understanding of your Salesforce data segments.
@@ -265,6 +291,8 @@ These reports offer valuable insights into fields that warrant deeper examinatio
 
 > The `Profiling Segment Fields | Segment Score` report identifies and evaluates fields that are prime candidates for deeper data analysis based on utilization and composition. It provides a visual breakdown of segment scores across various fields and objects powered by field utilization statistics and insights.  Use this report to prioritize fields for in-depth analysis, data quality improvements, or segmentation strategies.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Record Type Usage (3 Reports)
 This collection of reports examines the utilization of record types across Salesforce objects. By analyzing population rates and record counts, these reports provide a clear picture of how different record types are being used within your Salesforce org.
 > Use these insights to optimize Salesforce object schemas, refine business processes across variations, and improve data quality for strategic Salesforce objects. Understanding record type usage patterns helps teams make informed decisions about simplifying complex business processes or identifying underutilized record types.  These efforts enhance CRM efficiency and user adoption.
@@ -273,6 +301,8 @@ This collection of reports examines the utilization of record types across Sales
 
 > The `Record Types | Populated Values %` report provides a detailed breakdown of record type usage across Salesforce objects. It presents a visual comparison of different record types contrasting their population rate along with key profiling statistics and insights. Use this report to gain insights into how different record types are being used within your Salesforce org and which record types are underutilized.
 
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
+
 ### Unpopulated Fields Analysis (7 Reports)
 This suite of reports from Cuneiform for CRM zeroes in on fields with 0% population rates across various categories. From fields lacking governance properties to empty formula fields and abandoned fields without dependencies, these reports offer a comprehensive view of underutilized elements in your Salesforce org.
 > Data architects and Salesforce administrators can harness these insights to streamline their org's data model, identify field deprecation candidates, and drive data governance outcomes.  By identifying fields ripe for retirement or requiring attention, teams can optimize storage, improve system performance, and ensure that every field in their CRM serves a clear purpose.
@@ -280,6 +310,8 @@ This suite of reports from Cuneiform for CRM zeroes in on fields with 0% populat
 ![Cuneiform for Salesforce: Empty Fields | Custom | Abandoned %](img/reports/customfields-empty-abandoned.gif)
 
 > The `Empty Fields | Custom | Abandoned` report identifies custom fields that are completely unpopulated (0% population rate) and lack field descriptions, metadata dependencies, and data governance properties.  Use this report to identify unused custom fields that are deprecation candidates. By pinpointing custom fields that are unused and undocumented, practitioners can streamline their org's data model, improve end-user experience, and ensure that all custom fields serve a clear purpose.
+
+:point_up: Go to [Data Health Report Categories](#data-health-report-categories)
 
 ## [License](LICENSE.md)
 
