@@ -117,6 +117,26 @@ These reports are designed to display single summary results for multiple Profil
 ## Data Health Report Categories
 Our Data Health reports offer actionable insights into key data health metrics -- such as duplicate value detection, picklist usage, data governance gaps, default value usage, outlier value detection, and field utilization,  By using these reports, Salesforce professionals can drive more informed org management decisions, enhance data governance strategies, and ensure their data is optimized for business processes.
 
+| Report Category                          | Reports | Description                                                                                   |
+|------------------------------------------|---------|-----------------------------------------------------------------------------------------------|
+| Object, Field, and Field Value Templates | 7       | Review object and field data profiling results to track usage trends and identify issues. Helps streamline object health.|
+| Profiling Exceptions Analysis            | 8       | Review exceptions found during data profiling processes. Supports troubleshooting and resolving data profiling issues. |
+| Data Governance Analysis                 | 11      | Assess data classification and sensitivity levels. Improves compliance and data governance efforts.|
+| Data Dictionary Analysis                 | 6       | Identify fields missing descriptions or help text. Enhances data quality and documentation for better user understanding.|
+| Default Value Analysis                   | 5       | Examine fields with high default value usage. Helps improve data accuracy by optimizing field configurations.|
+| Duplicate Value Analysis                 | 4       | Detect fields with high duplicate value frequencies. Reduces redundancy and improves data quality.|
+| Identity Resolution Analysis             | 14      | Identify fields suitable for Data Cloud identity resolution. Enhances record matching accuracy for Customer 360 initiatives.|
+| Low-Population Field Analysis            | 6       | Identify fields with low population rates. Helps streamline data models and focus on critical fields.|
+| Metadata Dependency Analysis             | 9       | Review custom fields with dependencies, including workflows and UX. Optimizes data model performance and efficiency.|
+| Namespace Analysis                       | 5       | Analyze field and object usage across different namespaces. Helps manage multiple packages and ensure efficient field use.|
+| Object Reference Analysis                | 8       | Explore relationships between Salesforce objects. Helps improve data consistency and cross-object reporting.|
+| Outlier Values Analysis                  | 2       | Identify fields with abnormal values. Useful for detecting data quality issues and improving data accuracy.|
+| Owner, Creator, and Modifier Analysis    | 6       | Review data ownership and modification patterns. Helps manage and optimize user accountability and data governance.|
+| Picklist Value Analysis                  | 5       | Analyze active and inactive picklist values. Supports clean-up and optimization of picklist fields for consistency.|
+| Profiling Segment Analysis               | 4       | Segment profiling results based on specific object or field categories. Improves data profiling insights. |
+| Record Type Usage Analysis               | 3       | Assess the usage of different record types across objects. Helps streamline and manage record type usage. |
+| Unpopulated Fields Analysis              | 7       | Identify fields with missing values across Salesforce objects. Supports data quality improvements. |
+
 > These reports can be customized and extended to meet your specific data quality needs.  Use these reports to drive data quality initiatives, data governance strategies, and data reliability outcomes specifically tailored for your Salesforce org.
 
 ### Cuneiform for Salesforce Reporting Templates
@@ -139,14 +159,6 @@ The Profiling Exceptions Analysis category offers a set of reports designed to e
 
 ### Data Reliability Analysis Reports
 
-#### Data Governance Analysis (6 Reports)
-Explore your Salesforce data governance landscape with this set of specialized reports. From field usage and compliance categories to data ownership and sensitivity levels, these analyses shed light on crucial aspects of your data classification and governance framework.
-> These reports empower data architects and administrators to fortify their organization's data governance strategies. By identifying fields that lack data classification properties and aligning practices with regulatory requirements, teams can create a lightweight governance structure tailored to their business needs.
-
-![Cuneiform for Salesforce: Fields | Data Gov | Missing](img/reports/datagov-missing.gif)
-
-> The `Fields | Data Gov | Missing` report identifies all populated and unpopulated fields that lack data classification properties.  It provides a visual breakdown of these by population status, and includes field both utilization statistics and data classification properties for each offending field.
-
 #### Data Dictionary Analysis (11 Reports)
 Dive deep into your Salesforce metadata with this collection of reports focused on field documentation and properties. Uncover insights about description and help-text usage across custom fields, formulas, and data classification attributes for profiled objects.
 > Salesforce administrators and data stewards can use these reports to pinpoint documentation gaps and description inconsistencies across multiple fields. This intelligence drives improvements in data quality, boosts user adoption, accelerates AI readiness, and contributes to a well-governed Salesforce environment.
@@ -154,6 +166,14 @@ Dive deep into your Salesforce metadata with this collection of reports focused 
 ![Cuneiform for Salesforce: Fields | Description & Help Text | Missing](img/reports/dictionary-missing-desc-helptext.gif)
 
 > The `Fields | Descriptions & Help | Missing` report identifies all profiled fields that lack descriptions and help text. It provides a visual breakdown of populated and empty fields missing these field values that may need better descriptions or help text to enhance user understanding and data quality.
+
+#### Data Governance Analysis (6 Reports)
+Explore your Salesforce data governance landscape with this set of specialized reports. From field usage and compliance categories to data ownership and sensitivity levels, these analyses shed light on crucial aspects of your data classification and governance framework.
+> These reports empower data architects and administrators to fortify their organization's data governance strategies. By identifying fields that lack data classification properties and aligning practices with regulatory requirements, teams can create a lightweight governance structure tailored to their business needs.
+
+![Cuneiform for Salesforce: Fields | Data Gov | Missing](img/reports/datagov-missing.gif)
+
+> The `Fields | Data Gov | Missing` report identifies all populated and unpopulated fields that lack data classification properties.  It provides a visual breakdown of these by population status, and includes field both utilization statistics and data classification properties for each offending field.
 
 #### Default Value Analysis (5 Reports)
 The Default Value Analysis category showcases a set of reports dedicated to examining the configuration and usage of default values across Salesforce fields. These reports delve into various aspects of default value implementation, including their presence in required fields, usage patterns, data type distributions, and fields with high default value adoption.
@@ -170,14 +190,6 @@ Unveil the impact of duplicate values on your Salesforce data with this set of a
 ![Cuneiform for Salesforce: Fields | With High Duplicate Frequency %](img/reports/duplicates-highfrequency.gif)
 
 > The `Fields | With High Duplicate Frequency %` report identifies fields with a high percentage of duplicate values. It provides a visual breakdown of duplicate-density percentages across different objects and fields, and enables data quality teams to quickly pinpoint fields that may be contributing to data duplication issues.  Use our profiling statistics to inform field priorities and match rule design. 
-
-#### Picklist Value Analysis (5 Reports)
-Optimize your Salesforce picklist fields with this powerful set of analysis reports. Identify active and in-use picklist values, uncover inactive values that can be safely removed, and pinpoint non-picklist fields that may be candidates for conversion to streamline data entry and maintain consistency.
-> Salesforce administrators and data managers can leverage these insights to refine picklist configurations, eliminate unused values, and improve data accuracy and consistency across Salesforce objects. By proactively managing picklist fields and values, teams can enhance the reliability of reporting and analysis processes.
-
-![Cuneiform for Salesforce: Picklist Fields | Inactive Values in Use](img/reports/picklist-inactivevalues.gif)
-
-> This `Picklist Fields | Inactive Values In-Use` report identifies picklist field values that are marked as inactive but are still being used in records.  It provides a visual breakdown of inactive picklist values across different objects and fields that helps Salesforce administrators and data quality teams identify discrepancies between picklist configurations and actual data usage.  
 
 #### Identity Resolution Analysis (14 Reports)
 Accelerate your Salesforce Data Cloud implementation with this insightful collection of Identity Resolution Analysis reports. These powerful tools enable you to identify the most suitable fields for identity resolution processes, a critical step in creating a unified customer view within Data Cloud.
@@ -234,6 +246,14 @@ This set of reports offers valuable insights into user interactions with profile
 ![Cuneiform for Salesforce: Profiled Objects | By Record Owner](img/reports/profiledobjects-recordowner.gif)
 
 > The `Profiled Objects | By Record Owner` report provides an analysis of record ownership distribution across profiled Salesforce objects. It offers a visual breakdown of the top record owners by object, showing the total number of records owned by each user or process.  Use this report to understand data ownership patterns, identify potential workload imbalances, and ensure proper data stewardship across the organization.
+
+#### Picklist Value Analysis (5 Reports)
+Optimize your Salesforce picklist fields with this powerful set of analysis reports. Identify active and in-use picklist values, uncover inactive values that can be safely removed, and pinpoint non-picklist fields that may be candidates for conversion to streamline data entry and maintain consistency.
+> Salesforce administrators and data managers can leverage these insights to refine picklist configurations, eliminate unused values, and improve data accuracy and consistency across Salesforce objects. By proactively managing picklist fields and values, teams can enhance the reliability of reporting and analysis processes.
+
+![Cuneiform for Salesforce: Picklist Fields | Inactive Values in Use](img/reports/picklist-inactivevalues.gif)
+
+> This `Picklist Fields | Inactive Values In-Use` report identifies picklist field values that are marked as inactive but are still being used in records.  It provides a visual breakdown of inactive picklist values across different objects and fields that helps Salesforce administrators and data quality teams identify discrepancies between picklist configurations and actual data usage.
 
 #### Profiling Segment Analysis (4 Reports)
 These reports offer valuable insights into fields that warrant deeper examination for data profiling. These reports identify key fields and their associated values across objects, enabling a more granular understanding of your Salesforce data segments.
