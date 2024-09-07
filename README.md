@@ -48,7 +48,7 @@ To use these reports, you must have a Salesforce org and a [Cuneiform for Salesf
 - [Profile your Salesforce Standard and Custom Objects](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2623373435) to collect the profiling insights and data governance evidence to drive data initiative priorities
 
 ## Deployment Instructions
-We recommend [cloning this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and using SFDX to deploy these reports to your Salesforce org.  You can also use the Salesforce UI to manually deploy these reports (not recommended, but certainly an option).
+We recommend [cloning this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and using **Jetstream** or **SFDX** to deploy these reports to your Salesforce org.  You can also use the Salesforce UI to manually deploy these reports (not recommended, but certainly an option).
 
 ### Use Jetstream to Deploy These Reports
 
@@ -67,7 +67,7 @@ Use [Jetstream's Deploy Metadata](https://docs.getjetstream.app/deploy-metadata)
 
 After the deployment completes, you view the status of your deployment via [Jetstream's Deployment History](https://docs.getjetstream.app/deploy-metadata#deployment-history).  You can also log into your Salesforce org to verify the deployment results.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md) that includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md) from within Salesforce setup.
 
-### Using SFDX to Deploy These Reports
+### Use SFDX to Deploy These Reports
 
 ![Install SFDX Today](img/sfdx.gif)
 > Please follow these instructions to deploy these reports to your Salesforce org using SFDX.  The following guidance is dependent on you having [SFDX installed](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) on your local machine and cloned this repository to your local workstation.
