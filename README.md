@@ -311,7 +311,7 @@ This suite of reports from Cuneiform for CRM zeroes in on fields with 0% populat
 
 > The `Empty Fields | Custom | Abandoned` report identifies custom fields that are completely unpopulated (0% population rate) and lack field descriptions, metadata dependencies, and data governance properties.  Use this report to identify unused custom fields that are deprecation candidates. By pinpointing custom fields that are unused and undocumented, practitioners can streamline their org's data model, improve end-user experience, and ensure that all custom fields serve a clear purpose.
 
-:arrow_up: [Data Health Report Categories](#data-health-report-categories) | [Installation Prerequisites](#installation-prerequisites) | [Deployment Instructions](#deployment-instructions) | [Accessing the Reports in Salesforce](#accessing-the-reports-in-salesforce)
+:arrow_up: [Data Health Report Categories](#data-health-report-categories) | [Installation Prerequisites](#installation-prerequisites) | [Deployment Instructions](#deployment-instructions) | [Accessing the Reports](#accessing-the-reports-in-salesforce)
 
 ## [License](LICENSE.md)
 
