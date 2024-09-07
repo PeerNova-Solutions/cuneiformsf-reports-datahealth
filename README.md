@@ -50,27 +50,43 @@ To use these reports, you must have a Salesforce org and a [Cuneiform for Salesf
 ## Deployment Instructions
 We recommend [cloning this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and using SFDX to deploy these reports to your Salesforce org.  You can also use the Salesforce UI to manually deploy these reports (not recommended, but certainly an option).
 
-> Please follow the git clone instructions below to get started with deploying these reports to your Salesforce org.  The following guidance is dependent on you having [SFDX installed](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) on your local machine and cloned this repository to your local workstation.
+### Use Jetstream to Deploy These Reports
+> Please follow these instructions to deploy these reports to your Salesforce org using [Jetstream](https://getjetstream.app/).  The following guidance is dependent on you having a [Jetstream account](https://docs.getjetstream.app/) that is [connected to your Salesforce org](https://docs.getjetstream.app/#adding-your-first-org).
 
-### Install SFDX
+#### Download the Reporting Package
+You can download an archived version of our reporting package via the [packaged directory](packaged/) in this repository.  Please download the file [cuneiformsf-dhr-v25.zip](packaged/cuneiformsf-dhr-v25.zip) to your local workstation -- as you'll use this file to deploy the reports to your Salesforce org via Jetstream.
+
+#### Deploy the Reports to Your Salesforce Org
+Use [Jetstream's Deploy Metadata](https://docs.getjetstream.app/deploy-metadata) feature to deploy the reports to your Salesforce org.
+
+- Log into your Jetstream account and navigate to the [Deploy Metadata feature](https://docs.getjetstream.app/deploy-metadata).
+- Confirm that you have a [connection configured to the Salesforce org](https://docs.getjetstream.app/#adding-your-first-org) where you have [Cuneiform for CRM installed](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2952921126/).
+- Upload your [cuneiformsf-dhr-v25.zip](packaged/cuneiformsf-dhr-v25.zip) file to Jetstream and deploy the reports to your Salesforce org.
+
+After the deployment completes, you can log into your Salesforce org and navigate to the Reports tab.  You should see the reports in the `Cuneiform for CRM: Data Health Reports` folder.  Please ensure that you have access to reports prior to validating the deployment.
+
+### Using SFDX to Deploy These Reports
+> Please follow these instructions to deploy these reports to your Salesforce org using SFDX.  The following guidance is dependent on you having [SFDX installed](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) on your local machine and cloned this repository to your local workstation.
+
+#### Install SFDX
 If you don't have SFDX installed, you can install it by following the instructions on the [Salesforce Developer site](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm). You can verify your installation by entering the following command in your terminal at the directory where this repository was cloned.  
 > ```sf version```
 
 This will return the version number of your SFDX installation (ex., @salesforce/cli/2.56.7 darwin-arm64 node-v20.16.0).
 
-### Authenticate Against Your Target Org
+#### Authenticate Against Your Target Org
 Before deploying the reports, you must authenticate against the Salesforce org where you [Cuneiform for CRM is installed](https://jira-peernova.atlassian.net/wiki/spaces/CFCPD/pages/2956001507/Setup+Field+and+Data+Management).  You can do this by entering the following command in your terminal and replace `<mydomain-url>` with the myDomain version of your org's url (ex. https://mydomainname.my.salesforce.com).
 > ```sf auth web login --instance-url=https://mydomainname.my.salesforce.com```.  
  
 This will open a browser window where you can authenticate against your Salesforce org.  Once authenticated, you can close the browser window and return to your terminal.
 
-### Deploy the Reports to Your Target Org
+#### Deploy the Reports to Your Target Org
 To deploy the reports to your Salesforce org, you can use the following command in your terminal.
 > ```sf project deploy start --source-dir=force-app/main/default```
 
 This command will deploy the reports to your Salesforce org.  Please [review our sample output](SAMPLE_DEPLOYMENTOUTPUT.md) that depicts a successful deployment via SFDX.  This page includes guidance on how to [validate the deployment](SAMPLE_DEPLOYMENTOUTPUT.md) from within Salesforce setup.
 
-### Verify the Reports in Your Salesforce Org
+#### Verify the Reports in Your Salesforce Org
 You can verify the deployment by logging into your Salesforce org and navigating to the Reports tab.  You should see the reports in the `Cuneiform for CRM: Data Health Reports` folder.  Please ensure that you have access to reports prior to validating the deployment.
 
 ![Cuneiform for Salesforce: Data Health Reports Folder](img/report-folders.gif)
